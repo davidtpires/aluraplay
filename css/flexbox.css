@@ -53,6 +53,13 @@
     gap: 15px;
 }
 
+/* VIDEO */
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+}
+
 /* RODAPÉ */
 
 .rodape__container {
@@ -120,9 +127,10 @@
 
     .menu__lista:nth-child(3) {
         flex-direction: column-reverse;
+        
     }
 
-    .jogos {
+    /* .jogos {
         order: 3;
     }
 
@@ -136,5 +144,5 @@
 
     .maispagina {
         order: 4;
-    }
+    } */
 }
